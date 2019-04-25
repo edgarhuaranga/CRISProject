@@ -1,0 +1,489 @@
+<resources>
+    <string name="app_name">Ortodentech</string>
+    <string name="label_google_sign_in">Firebase + Google Sign In</string>
+    <string name="desc_google_sign_in">Use a Google Sign In credential to authenticate with Firebase.</string>
+
+    <string name="label_facebook_login">Firebase + Facebook Login</string>
+    <string name="desc_facebook_login">Use a Facebook Login credential to authenticate with Firebase.</string>
+
+    <string name="label_twitter_login">Firebase + Twitter Login</string>
+    <string name="desc_twitter_login">Use a Twitter Login credential to authenticate with Firebase.</string>
+
+    <string name="label_emailpassword">Email/Password Authentication</string>
+    <string name="desc_emailpassword">Use an email and password to authenticate with Firebase.</string>
+
+    <string name="label_passwordless">Passwordless Authentication</string>
+    <string name="desc_passwordless">Use only an email to authenticate with Firebase.</string>
+
+    <string name="label_phone_auth">Phone Number Authentication</string>
+    <string name="desc_phone_auth">Use a phone number to authenticate with Firebase.</string>
+
+    <string name="label_anonymous_auth">Anonymous Authentication</string>
+    <string name="desc_anonymous_auth">Sign in anonymously and then later upgrade to a full Firebase Auth user.</string>
+
+    <string name="label_custom_auth">Custom Authentication</string>
+    <string name="desc_custom_auth">Use a custom token signed by your own server to authenticate with Firebase.</string>
+
+    <string name="label_firebase_ui">FirebaseUI Auth</string>
+    <string name="desc_firebase_ui">Use the FirebaseUI-Android library to authenticate with Firebase.</string>
+
+    <string name="hint_user_id">User ID</string>
+    <string name="get_custom_token">Get Token</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account"> Create Account </string>
+    <string name="send_link">Send Link</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading…</string>
+    <string name="custom_token">Custom Token</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="token_null">Token: null</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="start_phone_auth">Start</string>
+    <string name="verify_phone_auth">Verify</string>
+    <string name="resend_phone_auth">Resend</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_verification_code">Verification Code</string>
+    <string name="status_code_sent">Code Sent</string>
+    <string name="status_verification_failed">Verification failed</string>
+    <string name="status_verification_succeeded">Verification succeeded</string>
+    <string name="status_sign_in_failed">Sign-in failed</string>
+    <string name="instant_validation">(instant validation)</string>
+
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+
+    <string name="google_status_fmt">Google User: %s</string>
+    <string name="google_title_text">Google Sign In</string>
+
+    <string name="facebook_status_fmt">Facebook User: %s</string>
+    <string name="facebook_title_text">Facebook Login</string>
+
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+
+    <string name="passwordless_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="passwordless_title_text">Passwordless Sign In</string>
+    <string name="status_email_not_sent">Send link to your email to get started.</string>
+    <string name="status_email_sent">Link sent, check your email to continue.</string>
+    <string name="status_link_found">Link received, enter email to sign in.</string>
+
+    <string name="phone_title_text">Phone Number</string>
+
+    <string name="twitter_status_fmt">Twitter User: %s</string>
+    <string name="twitter_title_text">Twitter Login</string>
+
+    <string name="firebaseui_status_fmt">Firebase User: %s</string>
+    <string name="firebaseui_title_text">FirebaseUI Auth</string>
+
+    <string name="id_fmt">User ID: %s</string>
+    <string name="email_fmt">Email: %s</string>
+    <string name="title_activity_super">SuperActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_odontech">OdontechActivity</string>
+    <string name="preference_file_key">com.edhuaranga.crisproject.shared_preferences</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_ortodentech">OrtodentechActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string-array name="icons">
+        <item>arte_design00_white.png</item>
+        <item>arte_design01_white.png</item>
+        <item>arte_design02_white.png</item>
+        <item>arte_design03_white.png</item>
+        <item>arte_design04_white.png</item>
+        <item>arte_design05_white.png</item>
+        <item>arte_design06_white.png</item>
+        <item>arte_design07_white.png</item>
+        <item>arte_design08_white.png</item>
+        <item>arte_design09_white.png</item>
+        <item>arte_design10_white.png</item>
+        <item>arte_design11_white.png</item>
+        <item>arte_design12_white.png</item>
+        <item>arte_design13_white.png</item>
+        <item>arte_design14_white.png</item>
+        <item>arte_design15_white.png</item>
+        <item>arte_design16_white.png</item>
+        <item>arte_design17_white.png</item>
+        <item>arte_design18_white.png</item>
+        <item>arte_design19_white.png</item>
+        <item>arte_design20_white.png</item>
+        <item>arte_design21_white.png</item>
+        <item>arte_design22_white.png</item>
+        <item>arte_design23_white.png</item>
+        <item>arte_design24_white.png</item>
+        <item>arte_design25_white.png</item>
+        <item>arte_design26_white.png</item>
+        <item>arte_design27_white.png</item>
+        <item>arte_design28_white.png</item>
+        <item>arte_design29_white.png</item>
+        <item>arte_design30_white.png</item>
+        <item>arte_design31_white.png</item>
+        <item>arte_design32_white.png</item>
+        <item>arte_design33_white.png</item>
+        <item>arte_design34_white.png</item>
+        <item>arte_design35_white.png</item>
+        <item>arte_design36_white.png</item>
+        <item>arte_design37_white.png</item>
+        <item>arte_design38_white.png</item>
+        <item>arte_design39_white.png</item>
+        <item>arte_design40_white.png</item>
+        <item>arte_design41_white.png</item>
+        <item>arte_design42_white.png</item>
+        <item>arte_design43_white.png</item>
+        <item>cinema00_white.png</item>
+        <item>cinema01_white.png</item>
+        <item>cinema02_white.png</item>
+        <item>cinema03_white.png</item>
+        <item>cinema04_white.png</item>
+        <item>cinema05_white.png</item>
+        <item>cinema06_white.png</item>
+        <item>cinema07_white.png</item>
+        <item>cinema08_white.png</item>
+        <item>cinema09_white.png</item>
+        <item>cinema10_white.png</item>
+        <item>cinema11_white.png</item>
+        <item>cinema12_white.png</item>
+        <item>cinema13_white.png</item>
+        <item>cinema14_white.png</item>
+        <item>cinema15_white.png</item>
+        <item>cinema16_white.png</item>
+        <item>cinema17_white.png</item>
+        <item>cinema18_white.png</item>
+        <item>cinema19_white.png</item>
+        <item>cinema20_white.png</item>
+        <item>cinema21_white.png</item>
+        <item>cinema22_white.png</item>
+        <item>cinema23_white.png</item>
+        <item>cinema24_white.png</item>
+        <item>cinema25_white.png</item>
+        <item>cinema26_white.png</item>
+        <item>cinema27_white.png</item>
+        <item>cinema28_white.png</item>
+        <item>cinema29_white.png</item>
+        <item>cinema30_white.png</item>
+        <item>comida00_white.png</item>
+        <item>comida01_white.png</item>
+        <item>comida02_white.png</item>
+        <item>comida03_white.png</item>
+        <item>comida04_white.png</item>
+        <item>comida05_white.png</item>
+        <item>comida06_white.png</item>
+        <item>comida07_white.png</item>
+        <item>comida08_white.png</item>
+        <item>comida09_white.png</item>
+        <item>comida10_white.png</item>
+        <item>comida11_white.png</item>
+        <item>comida12_white.png</item>
+        <item>comida13_white.png</item>
+        <item>comida14_white.png</item>
+        <item>comida15_white.png</item>
+        <item>comida16_white.png</item>
+        <item>comida17_white.png</item>
+        <item>comida18_white.png</item>
+        <item>comida19_white.png</item>
+        <item>comida20_white.png</item>
+        <item>comida21_white.png</item>
+        <item>comida22_white.png</item>
+        <item>comida23_white.png</item>
+        <item>comida24_white.png</item>
+        <item>comida25_white.png</item>
+        <item>comida26_white.png</item>
+        <item>comida27_white.png</item>
+        <item>comida28_white.png</item>
+        <item>comida29_white.png</item>
+        <item>comida30_white.png</item>
+        <item>comida31_white.png</item>
+        <item>comida32_white.png</item>
+        <item>comida33_white.png</item>
+        <item>comida34_white.png</item>
+        <item>comida35_white.png</item>
+        <item>comida36_white.png</item>
+        <item>comida37_white.png</item>
+        <item>comida38_white.png</item>
+        <item>comida39_white.png</item>
+        <item>comida40_white.png</item>
+        <item>comida41_white.png</item>
+        <item>comida42_white.png</item>
+        <item>comida43_white.png</item>
+        <item>comida44_white.png</item>
+        <item>comida45_white.png</item>
+        <item>comida46_white.png</item>
+        <item>comida47_white.png</item>
+        <item>educacion00_white.png</item>
+        <item>educacion01_white.png</item>
+        <item>educacion02_white.png</item>
+        <item>educacion03_white.png</item>
+        <item>educacion04_white.png</item>
+        <item>educacion05_white.png</item>
+        <item>educacion06_white.png</item>
+        <item>educacion07_white.png</item>
+        <item>educacion08_white.png</item>
+        <item>educacion09_white.png</item>
+        <item>educacion10_white.png</item>
+        <item>educacion11_white.png</item>
+        <item>educacion12_white.png</item>
+        <item>educacion13_white.png</item>
+        <item>educacion14_white.png</item>
+        <item>educacion15_white.png</item>
+        <item>educacion16_white.png</item>
+        <item>educacion17_white.png</item>
+        <item>educacion18_white.png</item>
+        <item>educacion19_white.png</item>
+        <item>educacion20_white.png</item>
+        <item>educacion21_white.png</item>
+        <item>educacion22_white.png</item>
+        <item>educacion23_white.png</item>
+        <item>educacion24_white.png</item>
+        <item>educacion25_white.png</item>
+        <item>educacion26_white.png</item>
+        <item>educacion27_white.png</item>
+        <item>educacion28_white.png</item>
+        <item>educacion29_white.png</item>
+        <item>educacion30_white.png</item>
+        <item>educacion31_white.png</item>
+        <item>educacion32_white.png</item>
+        <item>educacion33_white.png</item>
+        <item>educacion34_white.png</item>
+        <item>educacion35_white.png</item>
+        <item>educacion36_white.png</item>
+        <item>educacion37_white.png</item>
+        <item>educacion38_white.png</item>
+        <item>educacion39_white.png</item>
+        <item>educacion40_white.png</item>
+        <item>entretenimiento00_white.png</item>
+        <item>entretenimiento01_white.png</item>
+        <item>entretenimiento02_white.png</item>
+        <item>entretenimiento03_white.png</item>
+        <item>entretenimiento04_white.png</item>
+        <item>entretenimiento05_white.png</item>
+        <item>entretenimiento06_white.png</item>
+        <item>entretenimiento07_white.png</item>
+        <item>entretenimiento08_white.png</item>
+        <item>entretenimiento09_white.png</item>
+        <item>entretenimiento10_white.png</item>
+        <item>entretenimiento11_white.png</item>
+        <item>entretenimiento12_white.png</item>
+        <item>entretenimiento13_white.png</item>
+        <item>entretenimiento14_white.png</item>
+        <item>entretenimiento15_white.png</item>
+        <item>entretenimiento16_white.png</item>
+        <item>entretenimiento17_white.png</item>
+        <item>entretenimiento18_white.png</item>
+        <item>entretenimiento19_white.png</item>
+        <item>entretenimiento20_white.png</item>
+        <item>general00_white.png</item>
+        <item>general01_white.png</item>
+        <item>general02_white.png</item>
+        <item>general03_white.png</item>
+        <item>general04_white.png</item>
+        <item>general05_white.png</item>
+        <item>general06_white.png</item>
+        <item>general07_white.png</item>
+        <item>general08_white.png</item>
+        <item>general09_white.png</item>
+        <item>general10_white.png</item>
+        <item>general11_white.png</item>
+        <item>general12_white.png</item>
+        <item>general13_white.png</item>
+        <item>general14_white.png</item>
+        <item>general15_white.png</item>
+        <item>general16_white.png</item>
+        <item>general17_white.png</item>
+        <item>general18_white.png</item>
+        <item>general19_white.png</item>
+        <item>general20_white.png</item>
+        <item>general21_white.png</item>
+        <item>general22_white.png</item>
+        <item>general23_white.png</item>
+        <item>general24_white.png</item>
+        <item>general25_white.png</item>
+        <item>general26_white.png</item>
+        <item>general27_white.png</item>
+        <item>general28_white.png</item>
+        <item>general29_white.png</item>
+        <item>general30_white.png</item>
+        <item>general31_white.png</item>
+        <item>general32_white.png</item>
+        <item>general33_white.png</item>
+        <item>general34_white.png</item>
+        <item>general35_white.png</item>
+        <item>historia00_white.png</item>
+        <item>historia01_white.png</item>
+        <item>historia02_white.png</item>
+        <item>historia03_white.png</item>
+        <item>historia04_white.png</item>
+        <item>historia05_white.png</item>
+        <item>historia06_white.png</item>
+        <item>historia07_white.png</item>
+        <item>historia08_white.png</item>
+        <item>historia09_white.png</item>
+        <item>historia10_white.png</item>
+        <item>historia11_white.png</item>
+        <item>historia12_white.png</item>
+        <item>historia13_white.png</item>
+        <item>historia14_white.png</item>
+        <item>historia15_white.png</item>
+        <item>historia16_white.png</item>
+        <item>historia17_white.png</item>
+        <item>historia18_white.png</item>
+        <item>historia19_white.png</item>
+        <item>historia20_white.png</item>
+        <item>historia21_white.png</item>
+        <item>historia22_white.png</item>
+        <item>historia23_white.png</item>
+        <item>historia24_white.png</item>
+        <item>historia25_white.png</item>
+        <item>historia26_white.png</item>
+        <item>historia27_white.png</item>
+        <item>historia28_white.png</item>
+        <item>historia29_white.png</item>
+        <item>historia30_white.png</item>
+        <item>historia31_white.png</item>
+        <item>historia32_white.png</item>
+        <item>historia33_white.png</item>
+        <item>historia34_white.png</item>
+        <item>historia35_white.png</item>
+        <item>historia36_white.png</item>
+        <item>historia37_white.png</item>
+        <item>historia38_white.png</item>
+        <item>historia39_white.png</item>
+        <item>jogos00_white.png</item>
+        <item>jogos01_white.png</item>
+        <item>jogos02_white.png</item>
+        <item>jogos03_white.png</item>
+        <item>jogos04_white.png</item>
+        <item>jogos05_white.png</item>
+        <item>jogos06_white.png</item>
+        <item>jogos07_white.png</item>
+        <item>jogos08_white.png</item>
+        <item>jogos09_white.png</item>
+        <item>jogos10_white.png</item>
+        <item>jogos11_white.png</item>
+        <item>jogos12_white.png</item>
+        <item>jogos13_white.png</item>
+        <item>jogos14_white.png</item>
+        <item>jogos15_white.png</item>
+        <item>jogos16_white.png</item>
+        <item>jogos17_white.png</item>
+        <item>jogos18_white.png</item>
+        <item>jogos19_white.png</item>
+        <item>jogos20_white.png</item>
+        <item>jogos21_white.png</item>
+        <item>jogos22_white.png</item>
+        <item>jogos23_white.png</item>
+        <item>jogos24_white.png</item>
+        <item>jogos25_white.png</item>
+        <item>jogos26_white.png</item>
+        <item>jogos27_white.png</item>
+        <item>jogos28_white.png</item>
+        <item>jogos29_white.png</item>
+        <item>jogos30_white.png</item>
+        <item>jogos31_white.png</item>
+        <item>jogos32_white.png</item>
+        <item>jogos33_white.png</item>
+        <item>jogos34_white.png</item>
+        <item>jogos35_white.png</item>
+        <item>jogos36_white.png</item>
+        <item>jogos37_white.png</item>
+        <item>literatura00_white.png</item>
+        <item>literatura01_white.png</item>
+        <item>literatura02_white.png</item>
+        <item>literatura03_white.png</item>
+        <item>literatura04_white.png</item>
+        <item>literatura05_white.png</item>
+        <item>literatura06_white.png</item>
+        <item>literatura07_white.png</item>
+        <item>literatura08_white.png</item>
+        <item>literatura09_white.png</item>
+        <item>literatura10_white.png</item>
+        <item>literatura11_white.png</item>
+        <item>literatura12_white.png</item>
+        <item>literatura13_white.png</item>
+        <item>literatura14_white.png</item>
+        <item>literatura15_white.png</item>
+        <item>literatura16_white.png</item>
+        <item>literatura17_white.png</item>
+        <item>literatura18_white.png</item>
+        <item>literatura19_white.png</item>
+        <item>literatura20_white.png</item>
+        <item>literatura21_white.png</item>
+        <item>literatura22_white.png</item>
+        <item>literatura23_white.png</item>
+        <item>literatura24_white.png</item>
+        <item>literatura25_white.png</item>
+        <item>literatura26_white.png</item>
+        <item>literatura27_white.png</item>
+        <item>literatura28_white.png</item>
+        <item>literatura29_white.png</item>
+        <item>literatura30_white.png</item>
+        <item>literatura31_white.png</item>
+        <item>literatura32_white.png</item>
+        <item>literatura33_white.png</item>
+        <item>literatura34_white.png</item>
+        <item>literatura35_white.png</item>
+        <item>literatura36_white.png</item>
+        <item>negocios00_white.png</item>
+        <item>negocios01_white.png</item>
+        <item>negocios02_white.png</item>
+        <item>negocios03_white.png</item>
+        <item>negocios04_white.png</item>
+        <item>negocios05_white.png</item>
+        <item>negocios06_white.png</item>
+        <item>negocios07_white.png</item>
+        <item>negocios08_white.png</item>
+        <item>negocios09_white.png</item>
+        <item>negocios10_white.png</item>
+        <item>negocios11_white.png</item>
+        <item>negocios12_white.png</item>
+        <item>negocios13_white.png</item>
+        <item>negocios14_white.png</item>
+        <item>negocios15_white.png</item>
+        <item>negocios16_white.png</item>
+        <item>negocios17_white.png</item>
+        <item>negocios18_white.png</item>
+        <item>negocios19_white.png</item>
+        <item>negocios20_white.png</item>
+        <item>negocios21_white.png</item>
+        <item>negocios22_white.png</item>
+        <item>negocios23_white.png</item>
+        <item>negocios24_white.png</item>
+        <item>negocios25_white.png</item>
+        <item>negocios26_white.png</item>
+        <item>negocios27_white.png</item>
+        <item>negocios28_white.png</item>
+        <item>negocios29_white.png</item>
+        <item>negocios30_white.png</item>
+        <item>negocios31_white.png</item>
+        <item>negocios32_white.png</item>
+        <item>negocios33_white.png</item>
+        <item>negocios34_white.png</item>
+        <item>negocios35_white.png</item>
+        <item>negocios36_white.png</item>
+        <item>negocios37_white.png</item>
+        <item>negocios38_white.png</item>
+        <item>negocios39_white.png</item>
+        <item>negocios40_white.png</item>
+        <item>negocios41_white.png</item>
+        <item>negocios42_white.png</item>
+        <item>negocios43_white.png</item>
+        <item>negocios44_white.png</item>
+        <item>negocios45_white.png</item>
+        
+
+    </string-array>
+</resources>

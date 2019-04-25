@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4ea6c0</color>
+    <color name="colorPrimaryDark">#4ea6c0</color>
+    <color name="colorAccent">#FFA000</color>
+    <color name="colorLogin">#4ea6c0</color>
+
+    <color name="grey_100">#f5f5f5</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_500">#9E9E9E</color>
+
+    <color name="rosado">#ff9898</color>
+    <color name="rojo">#ff5454</color>
+    <color name="sangre">#993232</color>
+    <color name="orange_lighter">#ffb385</color>
+    <color name="orange">#ff8133</color>
+    <color name="orange_darker">#994d1f</color>
+    <color name="yellow_lighter">#ffd876</color>
+    <color name="yellow">#ffbe1a</color>
+    <color name="yellow_darker">#997210</color>
+    <color name="green_lighter">#67e3ac</color>
+    <color name="green">#02d174</color>
+    <color name="green_darker">#017d46</color>
+    <color name="blue_lighter">#66d3e8</color>
+    <color name="blue">#00b5d9</color>
+    <color name="blue_darker">#006d82</color>
+    <color name="purple_lighter">#c1abf0</color>
+    <color name="purple">#9873e6</color>
+    <color name="purple_darker">#5b458a</color>
+    <color name="gray_lighter">#ccc</color>
+    <color name="gray">#999</color>
+    <color name="gray_darker">#666</color>
+</resources>
