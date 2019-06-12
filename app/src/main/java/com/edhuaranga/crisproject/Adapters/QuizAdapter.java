@@ -3,7 +3,9 @@ package com.edhuaranga.crisproject.Adapters;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.net.Uri;
+import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
@@ -53,13 +55,18 @@ public class QuizAdapter extends RecyclerView.Adapter<QuizAdapter.QuizViewHolder
     }
 
     @Override
-    public void onBindViewHolder(@NonNull QuizAdapter.QuizViewHolder quizViewHolder, int i) {
+    public void onBindViewHolder(@NonNull QuizViewHolder quizViewHolder, int i) {
 
         final Quiz quiz = quizes.get(i);
 
         int indexColor = (int)(Math.random()* colors.length);
         quizViewHolder.textviewTopic.setText(quiz.getTopic());
-        quizViewHolder.imageViewTopicIcon.setBackgroundColor(context.getColor(colors[indexColor]));
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            quizViewHolder.imageViewTopicIcon.setBackgroundColor(context.getColor(colors[indexColor]));
+        }
+        else{
+            quizViewHolder.imageViewTopicIcon.setBackgroundColor(context.getResources().getColor(R.color.blue_darker));
+        }
         String[] icons = context.getResources().getStringArray(R.array.icons);
 
         indexColor = (int)(Math.random()*icons.length);

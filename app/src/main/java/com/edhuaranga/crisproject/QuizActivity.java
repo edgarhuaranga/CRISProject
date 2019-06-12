@@ -58,7 +58,6 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
     RadioButton radioButtonOption2;
     RadioButton radioButtonOption3;
     RadioButton radioButtonOption4;
-    RadioButton radioButtonOption5;
     TextView textViewTimer;
     Button buttonContinue;
     RadioGroup radioGroupOptions;
@@ -111,7 +110,6 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
         radioButtonOption2 = findViewById(R.id.radiogroup_option2);
         radioButtonOption3 = findViewById(R.id.radiogroup_option3);
         radioButtonOption4 = findViewById(R.id.radiogroup_option4);
-        radioButtonOption5 = findViewById(R.id.radiogroup_option5);
         textViewTimer = findViewById(R.id.textview_question_topic);
         buttonContinue = findViewById(R.id.button_continue);
         //seekBarQuizProgress = findViewById(R.id.seekBar);
@@ -185,7 +183,6 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
         radioButtonOption2.setText(currentQuestion.getOption2());
         radioButtonOption3.setText(currentQuestion.getOption3());
         radioButtonOption4.setText(currentQuestion.getOption4());
-        radioButtonOption5.setText(currentQuestion.getOption5());
         //seekBarQuizProgress.setProgress(questionQuizId+1);
         getSupportActionBar().setTitle(currentQuestion.getTopic());
 
@@ -237,9 +234,6 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.radiogroup_option4:
                 answer = 4;
-                break;
-            case R.id.radiogroup_option5:
-                answer = 5;
                 break;
         }
 

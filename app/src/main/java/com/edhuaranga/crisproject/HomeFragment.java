@@ -146,7 +146,6 @@ public class HomeFragment extends Fragment implements Response.ErrorListener, Re
                     question.setOption2(arrayQuestions.getJSONObject(i).getString("option2"));
                     question.setOption3(arrayQuestions.getJSONObject(i).getString("option3"));
                     question.setOption4(arrayQuestions.getJSONObject(i).getString("option4"));
-                    question.setOption5(arrayQuestions.getJSONObject(i).getString("option5"));
                     question.setTopic(arrayQuestions.getJSONObject(i).getString("topic"));
                     question.setAnswer(arrayQuestions.getJSONObject(i).getInt("answer"));
                     questions.add(question);

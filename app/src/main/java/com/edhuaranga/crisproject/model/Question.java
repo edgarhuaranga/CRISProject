@@ -9,8 +9,10 @@ public class Question implements Serializable {
     String option2;
     String option3;
     String option4;
-    String option5;
+    String category;
     String topic;
+    String imageURL;
+    String iconURL;
     int answer;
 
     public int getQuestionId() {
@@ -61,12 +63,12 @@ public class Question implements Serializable {
         this.option4 = option4;
     }
 
-    public String getOption5() {
-        return option5;
+    public String getCategory() {
+        return category;
     }
 
-    public void setOption5(String option5) {
-        this.option5 = option5;
+    public void setCategory(String category) {
+        this.category = category;
     }
 
     public String getTopic() {
@@ -75,6 +77,22 @@ public class Question implements Serializable {
 
     public void setTopic(String topic) {
         this.topic = topic;
+    }
+
+    public String getImageURL() {
+        return imageURL;
+    }
+
+    public void setImageURL(String imageURL) {
+        this.imageURL = imageURL;
+    }
+
+    public String getIconURL() {
+        return iconURL;
+    }
+
+    public void setIconURL(String iconURL) {
+        this.iconURL = iconURL;
     }
 
     public int getAnswer() {

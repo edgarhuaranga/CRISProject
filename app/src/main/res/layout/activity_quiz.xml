@@ -103,14 +103,6 @@
                     android:text="Option D"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
-                <RadioButton
-                    android:id="@+id/radiogroup_option5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/amarante"
-                    android:text="Option E"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
-
             </RadioGroup>
 
             <Button
