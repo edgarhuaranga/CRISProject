@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.edhuaranga.crisproject">
+    package="com.edhuaranga.ortodontech">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
 
     <application
-        android:name=".OrtodentechApplication"
+        android:name="com.edhuaranga.ortodontech.OrtodentechApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_round"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.edhuaranga.ortodontech.activity.TopicActivity"
+            android:label="@string/title_activity_topic"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name="com.edhuaranga.ortodontech.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,29 +26,25 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".OdontechActivity"
+            android:name="com.edhuaranga.ortodontech.activity.OdontechActivity"
             android:label="@string/title_activity_odontech"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".CheckActivity" />
+        <activity android:name="com.edhuaranga.ortodontech.activity.CheckActivity" />
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".QuizActivity" />
-        <activity android:name=".FullpostActivity" />
+        <activity android:name="com.edhuaranga.ortodontech.activity.QuizActivity" />
+        <activity android:name="com.edhuaranga.ortodontech.activity.FullpostActivity" />
 
-        <service
-            android:name=".AlarmService"
-            android:enabled="true" />
 
-        <receiver android:name=".AlarmReceiver" />
 
-        <activity android:name=".SignupActivity" />
-        <activity android:name=".SigninActivity" />
+        <activity android:name="com.edhuaranga.ortodontech.activity.SignupActivity" />
+        <activity android:name="com.edhuaranga.ortodontech.activity.SigninActivity" />
         <activity
-            android:name=".OrtodentechActivity"
-            android:label="@string/title_activity_ortodentech"></activity>
+            android:name="com.edhuaranga.ortodontech.activity.OrtodentechActivity"
+            android:label="@string/title_activity_ortodentech" />
     </application>
 
 </manifest>

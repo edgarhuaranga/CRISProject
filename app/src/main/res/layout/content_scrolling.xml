@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".FullpostActivity"
+    tools:context=".activity.FullpostActivity"
     tools:showIn="@layout/activity_fullpost"
     android:background="@drawable/news_background">
 

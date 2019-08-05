@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "529005510676-16dq6fk82i5bhejmc6fpjtmm9hlav4ke.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edhuaranga.crisproject",
+            "certificate_hash": "514b1b4747fd208e153f5e7953011d5fff6a13ac"
+          }
+        },
+        {
           "client_id": "529005510676-i0ek3mrbea52insl2mab1ip71ungd86f.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -33,37 +41,30 @@
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
               "client_id": "529005510676-emlah8ktkctmm6vvb3kb2jl1n4edlssb.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:529005510676:android:37251a3313a629b1",
+        "mobilesdk_app_id": "1:529005510676:android:903f1fedde9f05f4",
         "android_client_info": {
-          "package_name": "com.edhuaranga.fullfirebase"
+          "package_name": "com.edhuaranga.ortodontech"
         }
       },
       "oauth_client": [
         {
-          "client_id": "529005510676-nqt4hmtpg2v1qqv5e91lj19svs6q7i96.apps.googleusercontent.com",
+          "client_id": "529005510676-a4tt0ng2fmtdks1o25vvkli18bdfa02t.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.edhuaranga.fullfirebase",
-            "certificate_hash": "22c0aeeda76f44b670d5a6de1b9b4aacb2b9bda9"
+            "package_name": "com.edhuaranga.ortodontech",
+            "certificate_hash": "514b1b4747fd208e153f5e7953011d5fff6a13ac"
           }
         },
         {
@@ -77,20 +78,13 @@
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
               "client_id": "529005510676-emlah8ktkctmm6vvb3kb2jl1n4edlssb.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     }
